@@ -47,7 +47,8 @@ module.exports = async ({ utils, inputs, constants }) => {
   const hasKey = hasRecordKey()
   const record = hasKey && Boolean(onSuccessInputs.record)
 
-  const spec = onSuccessInputs.spec
+  const 
+  = onSuccessInputs.spec
   let group
   let tag
   if (record) {
@@ -78,6 +79,7 @@ module.exports = async ({ utils, inputs, constants }) => {
     tag,
     browser,
     configFile,
+    video,
   )
   processCypressResults(results, errorCallback, summaryCallback)
 }
